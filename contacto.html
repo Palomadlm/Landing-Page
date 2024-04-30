@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <body>
+        <form class="formulario" name="Formulario de contacto" action="mailto:palomadlmm@gmail.com" method="post">
+            <fieldset>
+                <legend class="tituloformulario">Formulario de contacto</legend>
+    <br>
+        <fieldset>
+            <legend class="epigrafeformulario">¿Quién eres?</legend>
+            <!-- Campo de Nombre -->
+                Nombre: <input type="text" name="nombre" placeholder="Introduce tu nombre" required>
+
+            <!-- Campo de Apellidos -->
+                Apellidos: <input type="text" name="apellidos" placeholder="Introduce tus dos apellidos" required>
+                
+    <br>           
+            <!-- Campo de Sexo con casilla de opción única -->
+                Sexo: <input type="radio" name="sexo" value="H"> Hombre  <input type="radio" name="sexo" value="M"> Mujer <input type="radio" name="sexo" value="X"> Otro 
+        </fieldset>
+    <br>
+        <fieldset>
+            <legend class="epigrafeformulario">¿Cómo puedo contactar contigo?</legend>
+            <!-- Campo de Correo electrónico -->
+                Teléfono: <input type="text" name="teléfono" placeholder="000000000" required>
+                Correo Electrónico: <input type="text" name="correo electrónico" placeholder="xxxxxx@xxx.xxx" required>
+        </fieldset>
+   
+    <br> 
+    <!-- Campo lista de personajes -->
+        <div class="epigrafeformulario">Tu perfil:<select name="Perfil">
+            <!-- Opciones de la lista -->  
+            <option value="1">Contacto profesional</option>    
+            <option value="2">Cliente</option>  
+            <option value="3">Personal de Recursos Humanos</option>  
+            <option value="4">Otro</option>   
+        </select>
+    <!-- Caja de comentarios -->
+    <br><div class="epigrafeformulario">Comentarios:</class> 
+    <br><textarea name="comentarios" placeholder="Deja tu comentario" cols="80" rows="20"></textarea>
+    <br>
+        <input class="boton" type="submit" value="Enviar formulario">
+        <input class="boton" type="reset" value="Borrar formulario">
+        <input class="boton" type="file"value="Adjuntar archivo">
+    </fieldset>
+    </form>
+    <br>
+        <a href="index.html" class="homePaloma">Paloma de los Milagros</a>
+    </body>
+    </html>
+</body>
+</html>

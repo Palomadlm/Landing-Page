@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&family=Rampart+One&display=swap');
+
+/* Formato Index */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Music", sans-serif;
+}
+
+body{
+
+    background-image: url(img/amazing-beautiful-sky-with-clouds.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo{
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform:uppercase;
+    background: rgba(245, 245, 245, 0.446);
+    border-radius: 10px;
+    border: rgba(243, 255, 172, 0.826) solid;
+    padding: 5px 20px;
+    font-family: "Noto Music", sans-serif;
+    font-weight: bolder;
+}
+
+header .logo:hover{
+    color:rgb(255, 2, 217);
+    background: none;
+    transition: 1s;
+    background-color: rgba(245, 245, 245, 0.446);
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a{
+    background-color: rgba(245, 245, 245, 0.446);
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+    font-weight: bold;
+    padding:10px;
+    transition: 0.3s;
+    font-size:0.9em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+header .navbar li a:hover{
+    border-bottom: 5px solid  rgba(243, 255, 172, 0.826);
+    padding: 2px;
+    background-color: rgba(245, 245, 245, 0.446);
+    color: rgb(255, 2, 217);
+    border: rgba(243, 255, 172, 0.826) solid;
+
+
+
+}
+/*Contenido de la web*/
+
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+
+}
+
+
+.imgBox{
+margin-left: 50px;
+height: 600px;
+display: block;
+margin: auto;
+}
+
+
+.texto1{
+    position: relative;
+    top:-480px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family:"Rampart One", sans-serif;
+    color: black;
+    font-size: 3.5em;
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.749);
+    text-align: center;
+    display: block-aling;
+
+}
+
+
+.copyright{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    display: inline-block;
+    color: rgb(255, 2, 217);
+    background-color: black;
+    /* justify-content: space-between; */
+    text-align: center;
+    }
+
+.copyright:hover {
+    color: rgba(243, 255, 172);
+    background-color: rgba(255, 2, 217, 0.055);}
+
+
+.redesSociales{
+    position: relative;
+    right: 0px;
+    bottom: 220px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 300px 30px;
+    list-style: none;
+
+}
+
+.redesSociales li{
+    padding: 10px;
+}
+
+.redesSociales li a {
+    color:rgba(243, 255, 172, 0.826);
+    font-size:4em;
+    transition:0.3s;
+
+}
+
+.redesSociales li:hover a{
+    color:rgba(255, 2, 217, 0.821);
+}
+
+
+/* Quien soy web */
+
+.tituloPresentacion{
+    font-family:"Rampart One", sans-serif;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgba(245, 245, 245, 0.446);
+    border-radius: 15px;
+    border: rgba(243, 255, 172, 0.826) solid;
+    padding: 5px 10px;
+    display: inline-block
+}
+
+.tituloPresentacion:hover{
+     border: rgba(255, 2, 217, 0.549) solid;
+
+}
+
+.descripcion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+.foto{
+height: 28%;
+width: 28%;
+margin-top: 50px;
+margin-left: 60%;
+position: relative;
+border-radius: 1000px;
+
+
+}
+
+/* Contacto web */
+
+.formulario{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.tituloformulario{
+    text-align: center;
+    font-family: "Rampart One", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.epigrafeformulario{
+    margin-left: 5px;
+    font-family: "Rampart One", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.boton{
+    font-size: 25px;
+  margin-left: 18px;
+}
+
+.homePaloma{
+    text-decoration:none;
+    text-align: center;
+    font-size: 30px;
+    font-family:"Rampart One", sans-serif;
+    color:purple;
+    margin-left: 70%;
+   
+}
+
+/* CV Web */
+
+table, tr, td{
+    border: 1px transparent;
+    margin: auto;
+}
+
+td{
+    height: 250px;
+    width: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    background-color:rgb(255, 255, 255, 0.65);  
+}
+   
+#foto{
+width: 300px;
+height: 100px;
+}
+#nombre{
+    font-family:"Rampart One", sans-serif; 
+    font-size: 62px;
+    line-height: 65px;
+    background-color: rgba(0, 0, 0, 0.466);
+    text-align: left;
+    color:rgb(255, 255, 255); 
+}
+
+#foto{
+    background-image: url(img/fotocv.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-position-y: -60px;
+    background-position-x: 0px;    
+}
+
+.titulocv{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;  
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255, 102, 209, 0.313); 
+}
+
+
+.resaltadocv{
+    font-weight:bold;  
+}
+
+.conocimientos{
+   font-weight: bold; 
+   font-size: 22px;
+   text-align: center;
+   color: rgb(251, 251, 251);
+   background-color: rgba(0, 0, 0, 0.466);
+}
+
+.contacto{
+    font-weight: bold; 
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 25%;
+   
+ }
+.oscuro{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+.iconocv{
+    height: 50px;
+    width: 50px;
+    color: rgba(255, 102, 209, 0.686);;
+} 
+
+.Contactotitulo{
+    margin-bottom: 500%;
+}
+
+
+/* Proyectos destacados */
+h1{
+font-family:"Rampart One", sans-serif; 
+font-size: 52px;
+text-align: center;
+}
+
+.fotosproyectos{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    height: 0px;
+    clear:both;
+} 
+.container{
+    width: 100%;
+    margin: 0%;
+}
+
+.container div{
+    width:45%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin:0% 3% 0% 2% ;
+    padding: 0;   
+    text-decoration: none;
+}
+
+.container div img{
+    width:105%;
+    height: 380px;
+    box-shadow: 0 0 60px rgb(3, 0, 35);
+    border: 5px solid white;
+    
+}
+
+.container div img~span{
+    width: 105%;
+    display: block;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    padding: 2px 2px;
+    color:white;
+    font-family:"Rampart One", sans-serif; 
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(3, 0, 35);
+    text-align: center;
+}
+
+.container div img:hover+span{
+    opacity: 1;
+    
+   
+}
+
+.container:hover div{
+    opacity:0.2;
+    transform: scale(0.8);
+    transition: 2s;
+   
+}
+
+.container:hover div:hover{
+    opacity:1;
+    transform: scale(1.2);
+   
+}
+

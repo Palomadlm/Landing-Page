@@ -1,0 +1,73 @@
+/* He intentado hacer responsive pero al final, al meterlo en el link de cada web, se me cambiaba el diseño original y por falta de tiempo no he podido seguir maquetando */
+
+
+/* Responsive Tamaño 992px*/
+
+/* Index Web */
+/* 
+ @media screen and (min-width: 992px){
+
+.imgBox{
+    height: 500px;
+    margin-top: 15%;
+    display: block;
+    align-items: center;       
+}
+ 
+
+.texto1{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family:"Rampart One", sans-serif;
+    color: black;
+    font-size: 3em;
+    text-shadow: 3px 3px rgba(255, 255, 255, 0.749);
+    text-align: center;
+    display: block;
+}
+
+.redesSociales{
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 30px 30px;
+    list-style: none;
+
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 10%;
+    
+}
+
+header .navbar li a{
+    background-color: rgba(245, 245, 245, 0.446);
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    padding:1px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+header .logo{
+    color: black;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    background: rgba(245, 245, 245, 0.446);
+    border-radius: 10px;
+    border: rgba(243, 255, 172, 0.826) solid;
+    padding: 5px 2px;
+    font-family: "Noto Music", sans-serif;
+}
+}     */
